@@ -1,9 +1,9 @@
 # Exemplo minimalista de uso do ArangoDB com PHP
 
-Faço uma cópia desse repositório e instale as dependências (driver)
+Faço uma cópia desse repositório e instale as dependências (`triagens/arangodb`)
 
 ```shell
-$ composer require triagens/arangodb
+$ composer install
 ```
 
 Levante os containers
