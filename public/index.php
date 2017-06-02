@@ -5,7 +5,7 @@ namespace triagens\ArangoDb;
 require dirname(__DIR__) . '/vendor/autoload.php';
  
 $options =array(
-    ConnectionOptions::OPTION_ENDPOINT => 'tcp://test-arango:8529',
+    ConnectionOptions::OPTION_ENDPOINT => 'tcp://test.arangodb-arango:8529',
     ConnectionOptions::OPTION_AUTH_TYPE => 'Basic',
     ConnectionOptions::OPTION_AUTH_USER => 'root',
     ConnectionOptions::OPTION_AUTH_PASSWD => '',
