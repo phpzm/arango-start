@@ -1,0 +1,74 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "2febb6dd0adb7f58145dc73122bc8ad9",
+    "packages": [
+        {
+            "name": "triagens/arangodb",
+            "version": "v3.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/arangodb/arangodb-php.git",
+                "reference": "330e56259ca5af2c503131b7f87ff9d19de91209"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/arangodb/arangodb-php/zipball/330e56259ca5af2c503131b7f87ff9d19de91209",
+                "reference": "330e56259ca5af2c503131b7f87ff9d19de91209",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "triagens\\ArangoDb": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache2"
+            ],
+            "authors": [
+                {
+                    "name": "Jan Steemann",
+                    "homepage": "https://github.com/arangodb/arangodb-php",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Frank Mayer",
+                    "homepage": "https://github.com/arangodb/arangodb-php",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Contributors",
+                    "homepage": "https://github.com/arangodb/arangodb-php/graphs/contributors"
+                }
+            ],
+            "description": "ArangoDb PHP client",
+            "homepage": "https://github.com/arangodb/arangodb-php",
+            "keywords": [
+                "Arango",
+                "ArangoDb",
+                "database",
+                "document store",
+                "graph database",
+                "multi-model",
+                "nosql"
+            ],
+            "time": "2016-10-26T09:13:08+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

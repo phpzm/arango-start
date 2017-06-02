@@ -1,0 +1,25 @@
+# v2 syntax
+version: '2'
+
+services:
+
+  test.arangodb-arango:
+    container_name: test.arangodb-arango
+    image: arangodb/arangodb:3.1.9
+    environment:
+      - ARANGO_NO_AUTH=1
+    volumes:
+      - ./.docker/arangodb/database:/var/lib/arangodb
+      - ./.docker/arangodb/apps:/var/lib/arangodb-apps
+    ports:
+      - "3010:8529"
+
+  test.arangodb-apache:
+    container_name: test.arangodb-apache
+    image: ambientum/php:7.0-apache
+    volumes:
+      - .:/var/www/app
+    ports:
+      - "3000:8080"
+    links:
+      - test-arango
